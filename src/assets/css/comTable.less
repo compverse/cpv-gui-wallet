@@ -1,0 +1,61 @@
+@bgc: #fdfefe;
+@textColor: #747474;
+
+.headerRowCss {
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: @textColor;
+    line-height: 25px;
+    background-color: @bgc !important;
+}
+
+.headerCellCss {
+    text-align: center !important;
+    border-bottom: none !important;
+}
+
+.rowCss {
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: @textColor;
+    line-height: 20px;
+    text-align: center;    
+}
+
+.rowCss:hover{
+    cursor: pointer;
+}
+
+.rowOddCss {
+    background-color: @bgc !important;
+}
+
+.rowEvenCss {
+    background-color: #f2f8fd !important;
+}
+
+.cellCss {
+    text-align: center !important;
+    border-bottom: none !important;
+}
+
+.cellCssFirst {
+    border-bottom: none !important;
+    padding-left: 60px !important;
+}
+
+.cellCssLast {
+    padding-right: 45px !important;
+}
+
+.el-table--border::after,
+.el-table--group::after,
+.el-table::before {
+    background: #f4f9fd;
+}
+
+.el-table {
+    background: #f4f9fd;
+}
