@@ -1,5 +1,5 @@
-# BHP-GUI
-BHP desktop Wallet
+# Compverse-GUI
+Compverse desktop Wallet
 
 ```
 First of all http://localhost:8080 change to your node IP in globalIP.js
